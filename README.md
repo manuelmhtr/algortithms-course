@@ -18,3 +18,16 @@ Given an arrays of integer, counts the number of inversions there are in the lis
 $ python3 ./inversions-count/solution.py
 # It will use the file sample-input.txt as input
 ```
+
+### 03 Quick sort
+
+Given an arrays of integer, counts the number of comparisons the algorithm has to do in order to sort the list. It uses 3 strategies to select the pivot in the quick sort splitting routine:
+
+* Using the first element
+* Using the last element
+* Using the median element among the first, last and the middle elements
+
+```sh
+$ python3 ./quick-sort/solution.py
+# It will use the file sample-input.txt as input
+```
