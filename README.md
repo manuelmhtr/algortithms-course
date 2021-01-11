@@ -31,3 +31,12 @@ Given an arrays of integer, counts the number of comparisons the algorithm has t
 $ python3 ./quick-sort/solution.py
 # It will use the file sample-input.txt as input
 ```
+
+### 04 Min Cuts
+
+Given a undirected graph, counts them minimum number of cuts using the Kramer's algorithm.
+
+```sh
+$ python3 ./min-cuts/solution.py
+# It will use the file sample-input.txt as input
+```
