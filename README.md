@@ -40,3 +40,12 @@ Given a undirected graph, counts them minimum number of cuts using the Kramer's 
 $ python3 ./min-cuts/solution.py
 # It will use the file sample-input.txt as input
 ```
+
+### 05 Strongly Connected Components
+
+Given a directed graph, find all the [strongly connected components](https://www.geeksforgeeks.org/strongly-connected-components/) and print the largest 5 of them.
+
+```sh
+$ python3 ./strongly-connected-components/solution.py
+# It will use the file sample-input.txt as input
+```

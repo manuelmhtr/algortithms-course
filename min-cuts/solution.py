@@ -23,11 +23,5 @@ def find_min_cut(data):
     min_all = min(min_all, min_i)
   return min_all
 
-def dup_dict(data):
-  result = {}
-  for key in data.keys():
-    result[key] = data[key]
-  return result
-
 data = get_graph('./sample-input.txt')
 print(find_min_cut(data))
