@@ -58,8 +58,10 @@ def dfs(graph, node, rev_graph = None, finishing = None):
 def check_node(stack, graph, from_node, rev_graph=None):
   graph.visit(from_node)
   visited_all = True
+  to_nodes = graph.connected_nodes(from_node)
 
-  for to_node in graph.connected_nodes(from_node):
+  while len(to_nodes):
+    to_node = to_nodes.pop()
     if rev_graph: rev_graph.add_edge(to_node, from_node)
     if graph.is_visited(to_node): continue
     stack.append(to_node)

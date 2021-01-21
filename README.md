@@ -49,3 +49,12 @@ Given a directed graph, find all the [strongly connected components](https://www
 $ python3 ./strongly-connected-components/solution.py
 # It will use the file sample-input.txt as input
 ```
+
+### 06 Dijkstra's Shortest Path
+
+Calculates the shortest distances from a source node to all other nodes in a graph using the (Dijkstra's algorithm)[https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm].
+
+```sh
+$ python3 ./dijkstras-shortest-path/solution.py
+# It will use the file input.txt as input
+```
