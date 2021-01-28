@@ -58,3 +58,12 @@ Calculates the shortest distances from a source node to all other nodes in a gra
 $ python3 ./dijkstras-shortest-path/solution.py
 # It will use the file input.txt as input
 ```
+
+### 07 Medians using heaps
+
+Calculates the sum of medians in a numbers list, using the Heap data structure.
+
+```sh
+$ python3 ./median-heaps/solution.py
+# It will use the file input.txt as input
+```
