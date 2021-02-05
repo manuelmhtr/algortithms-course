@@ -67,3 +67,12 @@ Calculates the sum of medians in a numbers list, using the Heap data structure.
 $ python3 ./median-heaps/solution.py
 # It will use the file input.txt as input
 ```
+
+### 08 2-Sum problem
+
+Given a range `T` and a set `U` of integers, counts how many values in `T` can be calculated with the sum of 2 different integers `x` and `y` present in the set `U`.
+
+```sh
+$ python3 ./two-sum/solution.py
+# It will use the file input.txt as input
+```
