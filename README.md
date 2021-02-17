@@ -76,3 +76,21 @@ Given a range `T` and a set `U` of integers, counts how many values in `T` can b
 $ python3 ./two-sum/solution.py
 # It will use the file input.txt as input
 ```
+
+### 09 Greedy algorithms
+
+Given a list of jobs to be processed, each one with a weight and length defined. Prioritize the jobs using 2 different greedy algorithms and report their respective total completion times.
+
+```sh
+$ python3 ./greedy-algorithms/solution.py
+# It will use the file input.txt as input
+```
+
+### 10 Prim's Minimum Spanning Tree
+
+Given an undirected graph with a cost assigned on each edge. Calculates the total cost of the minimum spanning tree (MST) using the Prim's algorithm.
+
+```sh
+$ python3 ./prims-min-spanning-tree/solution.py
+# It will use the file input.txt as input
+```
