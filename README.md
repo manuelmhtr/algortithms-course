@@ -7,7 +7,7 @@ My assignments for the Stanford [Algorithms Specialization](https://www.coursera
 Multiplies two integers using the Karatsuba Multiplication algorithm.
 
 ```sh
-$ python3 ./karatsuba.py <integer 1> <integer 2>
+$ python3 ./karatsuba/solution.py <integer 1> <integer 2>
 ```
 
 ### 02 Inversions count
@@ -88,7 +88,7 @@ $ python3 ./greedy-algorithms/solution.py
 
 ### 10 Prim's Minimum Spanning Tree
 
-Given an undirected graph with a cost assigned on each edge. Calculates the total cost of the minimum spanning tree (MST) using the Prim's algorithm.
+Given an undirected graph with a cost assigned on each edge. Calculates the total cost of the minimum spanning tree (MST) using Prim's algorithm.
 
 ```sh
 $ python3 ./prims-min-spanning-tree/solution.py
