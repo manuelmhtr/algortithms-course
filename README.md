@@ -94,3 +94,21 @@ Given an undirected graph with a cost assigned on each edge. Calculates the tota
 $ python3 ./prims-min-spanning-tree/solution.py
 # It will use the file input.txt as input
 ```
+
+### 11 Max Spacing K-Clustering
+
+Find the max spacing distance after grouping a list of nodes in `k` clusters using Kruskal's algorithm.
+
+```sh
+$ python3 ./k-clustering/max-spacing/solution.py
+# It will use the file max-spacing/input.txt as input
+```
+
+### 12 Largest K in K-Clustering
+
+Find the largest number of K clusters required to group a list of nodes with a spacing of at least 3. Nodes are represented using a 24 bits label and the distance between them is calculated using the _Hamming distance_.
+
+```sh
+$ python3 ./k-clustering/max-k/solution.py
+# It will use the file max-k/input.txt as input
+```
