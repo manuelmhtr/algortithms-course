@@ -112,3 +112,12 @@ Find the largest number of K clusters required to group a list of nodes with a s
 $ python3 ./k-clustering/max-k/solution.py
 # It will use the file max-k/input.txt as input
 ```
+
+### 13 Huffman Coding
+
+Given an alphabet of symbols and their frequencies, encode them using the Huffman coding algorithm and determine the minimum and the maximum lengths of the codewords.
+
+```sh
+$ python3 ./huffman-coding/solution.py
+# It will use the file input.txt as input
+```
