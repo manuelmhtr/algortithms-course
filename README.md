@@ -121,3 +121,12 @@ Given an alphabet of symbols and their frequencies, encode them using the Huffma
 $ python3 ./huffman-coding/solution.py
 # It will use the file input.txt as input
 ```
+
+### 14 Maximum-Weight independent Set of a Path Graph
+
+Give a list of nodes that form a path graph, find the set of independent nodes (ie. they are not adjacent) that sum the maximum possible weight.
+
+```sh
+$ python3 ./max-weight-set-in-path-graph/solution.py
+# It will use the file input.txt as input
+```
