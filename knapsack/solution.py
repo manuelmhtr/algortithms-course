@@ -1,5 +1,8 @@
+import sys
 from pathlib import Path
-from knapsack import Item, Cache
+from knapsack import Item, IterativeKnapsack, RecursiveKnapsack
+
+sys.setrecursionlimit(10000)
 
 def get_input(input_path):
   full_path = Path(__file__).parent / input_path
@@ -18,24 +21,10 @@ def get_items(input_path):
   items.sort()
   return items, int(max_weight)
 
-def knapsack(input_path):
+def knapsack(input_path, KnapsackSolution):
   items, max_weight = get_items(input_path)
-  cache = Cache()
+  return KnapsackSolution(items, max_weight).max_value()
 
-  for item in items:
-    for w in range(0, max_weight + 1):
-      not_include = cache.get_value(item.tag - 1, w)
-      if w < item.weight:
-        cache.set_value(item.tag, w, not_include)
-      else:
-        max_value = max(
-          not_include,
-          item.value + cache.get_value(item.tag - 1, w - item.weight)
-        )
-        cache.set_value(item.tag, w, max_value)
-
-  return cache.get_value(items[-1].tag, max_weight)
-
-print(knapsack('./input-min.txt')) # 202
-print(knapsack('./input.txt'))     # 2493893
-print(knapsack('./input-big.txt')) # in progress...
+print(knapsack('./input-min.txt', IterativeKnapsack)) # 202
+print(knapsack('./input.txt', IterativeKnapsack))     # 2493893
+print(knapsack('./input-big.txt', RecursiveKnapsack)) # 4243395
