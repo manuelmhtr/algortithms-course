@@ -124,9 +124,19 @@ $ python3 ./huffman-coding/solution.py
 
 ### 14 Maximum-Weight independent Set of a Path Graph
 
-Give a list of nodes that form a path graph, find the set of independent nodes (ie. they are not adjacent) that sum the maximum possible weight.
+Given a list of nodes that form a path graph, find the set of independent nodes (ie. they are not adjacent) that sum the maximum possible weight.
 
 ```sh
 $ python3 ./max-weight-set-in-path-graph/solution.py
 # It will use the file input.txt as input
+```
+
+### 15 Knapsack Problem
+
+Given a size of a "knapsack" and list of items, each one with a specific value and weight. Find the set of items, that fit in the knapsack and sum the maximum value possible.
+This problem uses to approaches, an iterative approach for small and medium size inputs, and a recursive approach for large inputs.
+
+```sh
+$ python3 ./knapsack/solution.py
+# It will use the files input-min.txt, input.txt, input-big.txt as inputs
 ```
