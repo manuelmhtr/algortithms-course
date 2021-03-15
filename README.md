@@ -140,3 +140,14 @@ This problem uses to approaches, an iterative approach for small and medium size
 $ python3 ./knapsack/solution.py
 # It will use the files input-min.txt, input.txt, input-big.txt as inputs
 ```
+
+### 16 All-pairs shortest paths
+
+Given 3 graphs, each one composed by edges with a given cost (might be negative and may form negative-cost cycles), find ths shortest path length among all possible path combinations and in the 3 graphs.
+
+The solution is based in Johnson's algorithm, but since the shortest path must have a negative value there's no need to run the full algorithm (Dijkstra's), just calculate the vertex weights using Bellman-Ford's and return the minimum weight.
+
+```sh
+$ python3 ./all-pairs-shortest-path/solution.py
+# It will use the files g0.txt, g1.txt, g2.txt, g3.txt and large.txt as inputs
+```
