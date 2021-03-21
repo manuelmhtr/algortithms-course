@@ -151,3 +151,12 @@ The solution is based in Johnson's algorithm, but since the shortest path must h
 $ python3 ./all-pairs-shortest-path/solution.py
 # It will use the files g0.txt, g1.txt, g2.txt, g3.txt and large.txt as inputs
 ```
+
+### 17 Traveling Salesman Problem
+
+Given a list of cities coordinates, calculate the length of the shortest path visiting all of the cities exactly once and retuning back to the first one; that is the famous Traveling Salesman Problem or TSP. TSP is a NP-Complete problem, which requires a non polynomial solution; in this case a O(n^2 * 2^2) algorithm using a dynamic programming approach.
+
+```sh
+$ python3 ./traveling-salesman-problem/solution.py
+# It will use the file input.txt as input
+```
