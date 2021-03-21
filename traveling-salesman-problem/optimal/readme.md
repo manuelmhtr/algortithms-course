@@ -1,4 +1,4 @@
-# Traveling Salesman Problem
+# Traveling Salesman Problem (Optimal solution)
 
 In this assignment you will implement one or more algorithms for the traveling salesman problem, such as the dynamic programming algorithm covered in the video lectures. The file `input.txt` contains data describing a TSP instance.
 

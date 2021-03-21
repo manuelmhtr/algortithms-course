@@ -152,11 +152,22 @@ $ python3 ./all-pairs-shortest-path/solution.py
 # It will use the files g0.txt, g1.txt, g2.txt, g3.txt and large.txt as inputs
 ```
 
-### 17 Traveling Salesman Problem
+### 17 Traveling Salesman Problem (Optimal solution)
 
-Given a list of cities coordinates, calculate the length of the shortest path visiting all of the cities exactly once and retuning back to the first one; that is the famous Traveling Salesman Problem or TSP. TSP is a NP-Complete problem, which requires a non polynomial solution; in this case a O(n^2 * 2^2) algorithm using a dynamic programming approach.
+Given a list of cities coordinates, calculate the length of the shortest path visiting all of the cities exactly once and retuning back to the first one; that is the famous Traveling Salesman Problem or TSP.
+
+The problem here requires an optimal solution (ie. the best solution overall possible), which makes it a NP-Complete problem, requiring a non polynomial solution; in this case a O(n^2 * 2^2) algorithm using a dynamic programming approach.
 
 ```sh
-$ python3 ./traveling-salesman-problem/solution.py
+$ python3 ./traveling-salesman-problem/optimal/solution.py
+# It will use the file input.txt as input
+```
+
+### 18 Traveling Salesman Problem (Heuristic solution)
+
+Given a much larger data set for the Traveling Salesman Problem (TSP) find a heuristic solution (ie. not the best one, but a good-enough solution) using the "nearest neighbor" approach: start from the first city, go to the nearest one which is not visited yet and repeat until visiting all of the cities. This solution is not the optimal but runs much faster: in O(n^2) time.
+
+```sh
+$ python3 ./traveling-salesman-problem/heuristic/solution.py
 # It will use the file input.txt as input
 ```
