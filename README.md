@@ -171,3 +171,12 @@ Given a much larger data set for the Traveling Salesman Problem (TSP) find a heu
 $ python3 ./traveling-salesman-problem/heuristic/solution.py
 # It will use the file input.txt as input
 ```
+
+### 19 2SAT Problem
+
+Given some instances of the [2-satisfiability problem](https://en.wikipedia.org/wiki/2-satisfiability), determine if them have a satisfiable solution using a Strongly Connected Components approach.
+
+```sh
+$ python3 ./2sat/solution.py
+# It will use the files 2sat1.txt, 2sat2.txt, ..., 2sat6.txt as inputs
+```
